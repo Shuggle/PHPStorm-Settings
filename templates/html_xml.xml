@@ -1,8 +1,0 @@
-<templateSet group="html/xml">
-  <template name="html" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;fr&quot;&gt;&#10;&lt;head&gt;&#10;    &lt;title&gt;&lt;/title&gt;&#10;    &lt;?php include_once $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/vues/head.php'; ?&gt;&#10;&lt;/head&gt;&#10;&#10;&lt;body&gt;&#10;    &lt;?php include_once $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/vues/topbar.php'; ?&gt;&#10;&#10;    &lt;main class=&quot;container&quot;&gt;&#10;        &lt;h1 class=&quot;center&quot;&gt;&lt;/h1&gt;&#10;    &lt;/main&gt;&#10;&#10;    &lt;?php include_once $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/vues/footer.php'; ?&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="HTML_TEXT" value="true" />
-      <option name="HTML" value="true" />
-    </context>
-  </template>
-</templateSet>
