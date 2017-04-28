@@ -7,4 +7,23 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="ajax" value="$.ajax({&#10;&#9;url: '$URL$',&#10;&#9;type: 'POST',&#10;&#9;dataType: 'json',&#10;&#9;data: $DATA$,&#10;})&#10;.done(function() {&#10;&#9;console.log(&quot;success&quot;);&#10;&#9;$END$&#10;})&#10;.fail(function() {&#10;&#9;console.log(&quot;error&quot;);&#10;})&#10;.always(function() {&#10;&#9;console.log(&quot;complete&quot;);&#10;});" toReformat="true" toShortenFQNames="true">
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="$.ea" value="$.each($($ARRAY$), function(index, val) {&#10;    $END$&#10;});" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
